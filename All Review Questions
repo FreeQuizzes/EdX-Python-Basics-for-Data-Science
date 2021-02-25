@@ -1,0 +1,127 @@
+Module 1 - Python Basics
+
+1. What is the result of the following operation in Python: 3 + 2 * 2
+7
+
+2.In Python, if you executed name = 'Lizz', what would be the output of print(name[0:2])?
+Li
+
+3.In Python, if you executed var = '01234567', what would be the result of print(var[::2])?
+0246
+
+4. In Python, what is the result of the following operation '1'+'2'
+'12'
+
+5. Given myvar = 'hello', how would you convert myvar into uppercase?
+myvar.upper()
+
+
+Module 2 - Python Data Structures
+
+1. What is the syntax to obtain the first element of the tuple: A=('a','b','c')
+A[0]
+
+2. After applying the following method,L.append(['a','b']), the resulting list will only be one element longer.
+True
+
+3. How many duplicate elements can you have in a set?
+0, you can only have one unique element in a set
+
+4. Consider the following Python Dictionary:
+Dict={"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
+What is the result of the following operation: Dict["D"]
+(4, 4, 4)
+
+5. What is an important difference between lists and tuples?
+Lists are mutable tuples are not
+
+
+Module 3 - Python Programming Fundamentals
+
+1. What is the output of the following lines of code:
+x=1
+if(x!=1):
+print('Hello')
+else:
+print('Hi')
+print('Mike')
+
+Hi Mike
+
+2. What is the output of the following few lines of code ?
+A=['1','2','3']
+for a in A:
+print(2*a)
+
+'11' '22' '33'
+
+3. Consider the function Delta, when will the function return a value of 1
+def Delta(x):
+if x==0:
+y=1;
+else:
+y=0;
+return(y)
+
+When the input is 0
+
+4. What is the correct way to sort the list 'B' using a method, the result should not return a new list, just change the list 'B'.
+B.sort()
+
+5. what are the keys of the of the following {'a':1,'b':2}
+a,b
+
+
+Module 4 - Working with Data in Python
+
+1. What do the following lines of code do?
+with open("Example1.txt","r") as file1:
+FileContent=file1.readlines()
+print(FileContent)
+
+Read the file "Example1.txt"
+
+2. What do the following lines of code do?
+with open("Example2.txt","w") as writefile:
+writefile.write("This is line A\n")
+writefile.write("This is line B\n")
+
+Append the file "Example2.txt"
+
+3. What do the following lines of code do?
+with open("Example3.txt","a") as file1:
+file1.write("This is line C\n")
+
+Append the file "Example3.txt"
+
+4. What is the result of applying the following method df.head(), to the dataframe df
+prints the first 5 rows of the dataframe
+
+5. What function would you use to load a csv file in Pandas?
+pd.read_csv
+
+
+Module 5 - Working with Numpy Arrays
+
+1. What is the result of the following lines of code?
+a=np.array([0,1,0,1,0])
+b=np.array([1,0,1,0,1])
+a*b
+
+array([0, 0, 0, 0, 0])
+
+2. What is the result of the following lines of code?
+a=np.array([0,1])
+b=np.array([1,0])
+np.dot(a,b)
+
+0
+
+3. What is the result of the following lines of code?
+a=np.array([1,1,1,1,1])
+a+10
+
+array([11, 11, 11, 11, 11])
+
+4. What is the correct code to perform matrix multiplication on the matrix A and B?
+np.dot(A,B)
