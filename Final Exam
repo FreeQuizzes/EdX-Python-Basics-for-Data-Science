@@ -1,0 +1,176 @@
+1. What is the result of the following operation 3+2*2?
+-->7
+
+2. What is the type of the following variable: True?
+-->bool
+
+3. What is the result of the following operation int(3.2)?
+-->3
+
+4. Consider the string A='1234567', what is the result of the following operation: A[1::2]?
+-->'246'
+
+5. Consider the string Name="Michael Jackson" , what is the result of the following operation Name.find('el')?
+-->5
+
+6. The variables A='1' and B='2', what is the result of the operation A+B?
+-->'12'
+
+7. Consider the variable F="You are wrong". Convert the values in the variable F to uppercase,
+-->F.upper()
+
+8. Consider the tuple tuple1=("A","B","C" ), what is the result of the following operation tuple1[-1]?
+-->"C"
+
+9. Consider the tuple A=((11,12),[21,22]), that contains a tuple and list. What is the result of the following operation A[1]:?
+-->[21,22]
+
+10. Consider the tuple A=((11,12),[21,22]), that contains a tuple and list. What is the result of the following operation A[0][1]:?
+-->12
+
+11. What is the result of the following operation '1,2,3,4'.split(',')?
+-->['1','2','3','4']
+
+12. Concatenate the following lists A=[1,'a'] and B=[2,1,'d']:
+-->A+B
+
+13. How do you cast the list 'A' to the set 'a'?
+-->a=set(A)
+
+14. Consider the Set: V={'A','B'}, what is the result of V.add('C')?
+-->{'A','B','C'}
+
+15. Consider the Set: V={'A','B','C' }, what is the result of V.add('C')?
+-->{'A','B','C'}
+
+16. What is the output of the following lines of code?
+
+x="Go"
+
+if(x!="Go"):
+
+print('Stop')
+
+else:
+
+print('Go ')
+
+print('Mike')
+
+-->Go Mike
+
+17. What is the output of the following lines of code?
+
+x="Go"
+
+if(x=="Go"):
+
+print('Go ')
+
+else:
+
+print('Stop')
+
+print('Mike')
+
+-->Go Mike
+
+18. How many iterations are performed in the following loop?
+
+for n in range(3):
+
+print(n)
+
+-->3
+
+19. What does the following loop print?
+
+for n in range(3):
+
+print(n+1)
+
+-->1 2 3
+
+20. What is the output of the following few lines of code ?
+
+A=['1','2','3']
+
+for a in A:
+
+print(2*a)
+
+-->'11' '22' '33'
+
+21. Consider the function add, what is the result of calling the following Add('1','1')? (Look closely at the return statement.)
+
+def Add(x,y):
+
+z=y+x
+
+return(y)
+
+-->'1'
+
+22. Consider the class Points, what are the data attributes?
+
+class Points(object):
+
+def __init__(self,x,y):
+
+self.x=x
+
+self.y=y
+
+def print_point(self):
+
+print('x=',self.x,'y=',self.y)
+
+-->self.x self.y
+
+23. What is the result of running the following lines of code?
+
+class Points(object):
+
+def __init__(self,x,y):
+
+self.x=x
+
+self.y=y
+
+def print_point(self):
+
+print('x=',self.x,' y=',self.y)
+
+p1=Points(1,2)
+
+p1.print_point()
+
+-->x=1 y=2
+
+24. What is the result of running the following lines of code?
+
+class Points(object):
+
+def __init__(self,x,y):
+
+self.x=x
+
+self.y=y
+
+def print_point(self):
+
+print('x=',self.x,' y=',self.y)
+
+p2=Points(1,2)
+
+p2.x=2
+
+p2.print_point()
+
+-->x=2 y=2
+
+25. Consider the following line of code: with open(example1,"r") as file1:
+
+What mode is the file object in?
+
+-->read
